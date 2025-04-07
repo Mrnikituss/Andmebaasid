@@ -1,0 +1,17 @@
+Andme - Данные
+Haldus - Админ
+Andmebaaside haldusüstemid - Система управлений БД - SQL Server
+-----------------------------------------------
+Tablid
+Rida - строчка
+verg=väli - столбец=поле
+päring - Запрос
+-----------------------------------------------
+kävita - запустить
+vrsenda=uuenda - обновить
+Laadi Alla - скачать
+Laadi Üles - загрузить
+Loo - Создать
+-----------------------------------------------
+PRIMARY KEY - primarve võti - первичный ключ
+PORETION KEY - välli võti - внешний/вторичный ключ
