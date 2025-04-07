@@ -5,3 +5,9 @@ Näited: nimi, nimetus, telNumber, isikukood - varchar(11)
 Näited: vanus, palk, temperatuur, kaal, pikkus, jne
 3. **Kuupäeva** - DATE, TIME, date/time
 4. **loogilised** - bit, bool, boolean
+
+  ## Piirangud - ограничения##
+  1. primary key - ei anna võimalust lisada topelt väärtused
+  2. UNIQUE - unijaaksus
+  3. NOT NULL ei lubada tühjad väärtused
+  4. foreign key - saab kasutada ainult teise tabeli väärtused
