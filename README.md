@@ -10,4 +10,5 @@ Näited: vanus, palk, temperatuur, kaal, pikkus, jne
   1. primary key - ei anna võimalust lisada topelt väärtused
   2. UNIQUE - unijaaksus
   3. NOT NULL ei lubada tühjad väärtused
-  4. foreign key - saab kasutada ainult teise tabeli väärtused
+  4. Foreign key - saab kasutada ainult teise tabeli väärtused
+  5. CHECK - saab sisetabaainult check määratud väärtused CHECK(mees, naine)
