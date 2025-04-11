@@ -6,9 +6,10 @@
 --pass ei ole
 --SQL
 CREATE DATABASE bezdrobnoi;
-USE bezdrobnoi;
+
+
 create table opilane(
-opilaneId int Primary key identity(1,1),
+opilaneId int Primary key AUTO_INCREMENT,
 eesnimi varchar(25),
 perenimi varchar(30) Unique,
 synniaeg date,
