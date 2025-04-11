@@ -50,3 +50,14 @@ select * from opilane join ryhm on opilane.ryhmID=ryhm.ryhmID;
 select opilane.perenimi from opilane join ryhm on opilane.ryhmID=ryhm.ryhmID;
 --how to make it shorter
 select o.perenimi,r.ryhm from opilane o join ryhm r on o.ryhmID=r.ryhmID;
+
+create table hinne(
+hinneId int not null Primary key identity(1,1),
+hinne int,
+opilaneId int,
+oppeaine varchar(30)
+);
+alter table hinne add foreign key (opilaneId) references opilane(opilaneId);
+insert into hinne(opilaneId,oppeaine, hinne)
+Values(2,'aaa',3);
+select * from hinne;
