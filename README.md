@@ -12,5 +12,5 @@ Näited: vanus, palk, temperatuur, kaal, pikkus, jne
   3. NOT NULL ei lubada tühjad väärtused
   4. Foreign key - saab kasutada ainult teise tabeli väärtused
   5. CHECK - saab sisetabaainult check määratud väärtused CHECK(mees, naine)
-
-![image](https://github.com/user-attachments/assets/f4c41de1-123c-491c-98ca-7604b1e0e03c)
+  6. 
+****![image](https://github.com/user-attachments/assets/4d8474e1-767a-437f-a1e7-a301c07bd2df)
