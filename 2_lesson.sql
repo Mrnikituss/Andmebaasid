@@ -61,3 +61,18 @@ alter table hinne add foreign key (opilaneId) references opilane(opilaneId);
 insert into hinne(opilaneId,oppeaine, hinne)
 Values(2,'aaa',3);
 select * from hinne;
+
+create table opetaja(
+opetajaId int Primary key identity(1,1),
+nimi varchar(25),
+perenimi varchar(30) Unique,
+telefon text,
+);
+alter table ryhm add opetajaId int;
+alter table ryhm add foreign key (opetajaId) references opetaja(opetajaId);
+
+insert into opetaja(nimi, perenimi,telefon)
+Values('bbb','ccc','+372 xxxxxxxx');
+select * from ryhm;
+
+UPDATE ryhm SET opetajaId = '3' WHERE ryhmId = 2;
