@@ -1,9 +1,10 @@
 -- SQL kommentaar
--- SQL Server Managment Stuudio
+-- xampp control pannel
 -- coonect to
--- (localdb)\MSSQLLocalDB
--- Authentification WINDOWS - admini õigused localhostis
--- Authentification SQL -
+--local host
+--nimi root 
+--pass ei ole
+--SQL
 CREATE DATABASE bezdrobnoi;
 USE bezdrobnoi;
 create table opilane(
